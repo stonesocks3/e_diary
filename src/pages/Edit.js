@@ -23,7 +23,7 @@ const Edit = () => {
         Home으로 이동
       </button>
       <button
-        onClick={() => {
+        onClick = {() => {
           navigate(-1);
         }}
       >
